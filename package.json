@@ -1,0 +1,28 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "this is my final project repo yo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilabit/final_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hilabit/final_project/issues"
+  },
+  "homepage": "https://github.com/hilabit/final_project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0"
+  }
+}

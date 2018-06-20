@@ -1,0 +1,104 @@
+* {
+    margin:0;
+    color: #fff;
+      -webkit-text-stroke: 1px black;
+      font-family: 'Bowlby One SC', cursive;
+
+}
+
+html {
+    display: flex;
+  background: url(/imgs/prettyCityPic.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+    height:100%;
+}
+
+.handlebarDiv {
+
+    margin-top: 80px;
+}
+.back-button {
+  display: inline-block;
+  width: 75px;
+  height:20px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: black;
+  text-decoration: none;
+   border-radius: 5px;
+   background-color: transparent;
+   color: white;
+   padding:0;
+
+}
+
+.back-button-container{
+
+}
+
+
+.activities {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-content: center;
+    align-items: center;
+}
+
+.activity{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+footer {
+position: fixed;
+bottom:0;
+  background-color: tomato;
+  font-size: 8px;
+  text-align:  center;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+
+}
+
+
+
+footer >h1 {
+    font-family:'Playfair Display', serif;
+    color: black;
+
+}
+
+.header {
+  background-color: tomato;
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  border-bottom: 4px solid tomato;
+  text-align: center;
+
+}
+
+.header>h1 {
+    margin-left: 42%;
+}

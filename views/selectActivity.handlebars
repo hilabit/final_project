@@ -1,0 +1,23 @@
+<div class= ' handlebarDiv select-activity'>
+
+    <h1>Oh! what an outstanding choice!</h1>
+    <h2>What would you like to do in {{city}}?</h2>
+
+
+
+    <form action="/selectActivity" method="post">
+        <select name ="select-activity">
+            <option name ="poi">Things To Do</option>
+            <option name ="location">Info About {{city}}</option>
+            <option name = "local_event">Event</option>
+        </select>
+
+        <button name="select-activity">SELECT</button>
+    </form>
+
+
+
+    <div class="back-button-container">
+        <button class= "back-button">BACK</button>
+    </div>
+</div>
