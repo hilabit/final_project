@@ -36,7 +36,9 @@ app.set('view engine', 'handlebars');
 
 app.get('/', function(req, res) {
     getAccessToTroiposo();
-    res.render('welcome')
+    res.render('welcome', {
+        welcome:`You only live once. Travel`
+    })
 
 });
 
@@ -45,12 +47,13 @@ app.post('/select-city', function(req,res) {
     console.log("post body", req.body["select-city"][0]);
     let city = req.body["select-city"][0]
     req.session.city = city;
-    console.log("req.session",req.session);
+    console.log("req.session.city",req.session.city);
     res.redirect('/selectActivity')
 })
 
 app.get('/selectActivity', function(req,res) {
     res.render('selectActivity', {
+        welcome:`Welcome to ${req.session.city}`,
         city:req.session.city
     })
 })
@@ -75,7 +78,10 @@ app.get('/activities', function(req,res) {
     console.log(path,"path");
     getAccessToTroiposo(path, req.session.city)
     .then((response) => {
+
             res.render('activities', {
+                welcome:`Welcome to ${req.session.city}`,
+                city:req.session.city,
                 activity_one: response.results[0].name,
                 description_one: response.results[0].snippet,
                 activity_two: response.results[1].name,

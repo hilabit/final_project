@@ -1,23 +1,25 @@
 * {
-    margin:0;
-    color: #fff;
-      -webkit-text-stroke: 1px black;
-      font-family: 'Bowlby One SC', cursive;
+        margin:0;
+        color: #fff;
+        -webkit-text-stroke: 1px black;
+        font-family: 'Bowlby One SC', cursive;
 
 }
 
 html {
-    display: flex;
-  background: url(/imgs/prettyCityPic.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+      display: flex;
+      background: url(/imgs/prettyCityPic.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 body{
     height:100%;
 }
+
+
 
 .handlebarDiv {
 
@@ -40,11 +42,6 @@ body{
 
 }
 
-.back-button-container{
-
-}
-
-
 .activities {
     display:flex;
     flex-direction: row;
@@ -61,7 +58,12 @@ body{
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+    color: WHITE;
+
+   -webkit-text-stroke: 0.5px BLACK;
+
 }
 
 p {
@@ -92,13 +94,36 @@ footer >h1 {
   background-color: tomato;
   display: flex;
   position: absolute;
-  z-index: 10;
   width: 100%;
   border-bottom: 4px solid tomato;
-  text-align: center;
 
 }
 
-.header>h1 {
-    margin-left: 42%;
+
+.header >h1 {
+    margin:auto;
+    font-family: 'Spirax', cursive;
+    color: black;
+
+}
+
+.handlebarDiv select-activity >h1 {
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+    color: WHITE;
+   -webkit-text-stroke: 0.5px BLACK;
+
+}
+
+.description {
+    padding:20px;
+}
+
+.description >p {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+
+.description >h3 {
+
 }
