@@ -1,6 +1,6 @@
 # My traveling site
 
-This was my final project at SPICED
+This was my final project at SPICED <br />
 I had one week to work on it, including coming up with an idea for it
 
 
@@ -19,11 +19,11 @@ I had one week to work on it, including coming up with an idea for it
 
 ### Images:
 
-####Welcome! Choose the city you're in
+<!-- ####Welcome! Choose the city you're in -->
 <p align="center"><img src="imgsForGithub/img1.png"></p>
 
-####Choose something you'd like to do right now
+<!-- ####Choose something you'd like to do right now -->
 <p align="center"><img src="imgsForGithub/img2.png"></p>
 
-####Enjoy the abundance :bowtie:
+<!-- ####Enjoy the abundance :bowtie: -->
 <p align="center"><img src="imgsForGithub/img3.png"></p>
