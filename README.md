@@ -1,7 +1,9 @@
 # My traveling site
 
 This was my final project at SPICED <br />
-I had one week to work on it, including coming up with an idea for it
+I had one week to work on it, including coming up with an idea for it <br />
+I decided to dedicate the final week of the ever so intensive past three months to the one thing I want to do. TRAVEL. <br />
+The app is a simple way of getting real time information on the city you're in. At the moment you can choose 6 cities and 3 types of info: Things to do, Info about the city or Events in your area.
 
 
 
